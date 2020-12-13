@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Assignment</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  	<script src="https://kit.fontawesome.com/7da7bccd11.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/style.css">
+	</head>
+<body>
+	<div style="height: 30px" class="col-12 bg-dark-mysite">
+		<div class="boxcenter">
+			<ul class="nav nav-top">
+				<li class="nav-item">
+					<a class="nav-link" href="#">Liên hệ: 1234545</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Email: hoaianh@gmail.com</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Địa chỉ: 12/34 Linh Nam, Tây Ninh</a>
+				</li>
+				
+			</ul>
+		</div>
+	</div>
+	<header class="bg-navbar-mysite">
+		<div class="boxcenter">
+			<nav class="navbar navbar-expand-sm navbar-dark ">
+				<a class="navbar-brand" href="#"><img src="images/logo.png" width="120px" alt=""></a>
+				<button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+					aria-expanded="false" aria-label="Toggle navigation"></button>
+				<div class="collapse navbar-collapse" id="collapsibleNavId">
+					<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+						<li class="nav-item ">
+							<a class="nav-link link" href="#">Trang chủ</a>
+						</li>
+						<li class="nav-item ">
+							<a class="nav-link link" href="#about">Giới thiệu</a>
+						</li>
+						<li class="nav-item ">
+							<a class="nav-link link " href="#sanpham">Sản phẩm</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link link" href="#collection">Bộ sưu tập</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link link" href="#contact">Đặt hàng</a>
+						</li>
+						
+						
+					</ul>
+					<form class="form-inline my-2 my-lg-0">
+						<div class="cart">
+							<img height="30px" id="iconcart" src="images/icon_ec.svg">
+							<div id="countsp"></div>
+						</div>
+						<div class="cartlist">
+
+			        <table id="mycart">
+
+			        </table>
+			        <h2 id="total"></h2>
+			        <a class="close">X</a>
+			    </div>
+					</form>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<div class="boxcenter">
+		<div class="spmoi">
+			<div class="bgblur"></div>
+			<div class="boxspN">
+				<a class="link" href="#sanpham"><img src="images/sanpham/3.jpg"></a>
+			</div>
+			<div class="bg-text">
+			  <h2></h2>
+			  <h1 style="font-size:50px">Sức mạnh của Hashira</h1>
+			  <p>Tóm tắt: Ở Nhật Bản thời Taisho, Kamado Tanjiro là một cậu bé tốt bụng, kiếm sống bằng nghề bán than củi.Nhưng cuộc sống bình yên của anh tan vỡ khi một con quỷ tàn sát cả gia đình anh</p>
+			</div>
+			<img id="new" src="images/new-logo-png-6.png">
+		</div>
+
+		<div class="news bg-white">
+			<ul class="menuNews">
+				<li><span >HOT</span><a href="#" style="color:#e53935;padding-left: 10px">[25/05/2020] Shop sẽ nhập số lượng lớn truyện Kimetsu yaiba!</a></li>
+				<li><span >HOT</span><a href="#" style="color:#e53935;padding-left: 10px">[25/05/2020] Tổ chức EVENT bốc thăm trúng thưởng nhé!!</a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<div class="boxcenter">
+		<section id="main" class="bg-white mb-1 p-0">
+		<div class="row">
+			<div class="col-2 m-0" data-aos="fade-right">
+				<div class="danhmuc" >
+					<ul class="nav nav-dm flex-column">
+						<li>
+							<h2 class="title-dm">Tổng hợp</h2>
+							<ul class="nav-list">
+								<li class="nav-item">
+									<a class="nav-link" href="#"><img src="images/icon_ec.svg">Truyện</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#"><img src="images/icon_ec.svg">Đồ chơi</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#"><img src="images/icon_ec.svg">Trang phục</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#"><img src="images/icon_ec.svg">Phụ kiện</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#"><img src="images/icon_ec.svg">Thẻ bài</a>
+								</li>
+								
+							</ul>
+							<li  class="nav-item ">
+									<div class="row m-0">
+										<div class="col-6 p-0">
+											<a href="#">
+												<img class="imgitem" src="images/img_ec_tora_cot.jpg">
+											</a>
+										</div>
+										<div class="col-6 bg-danger p-0 imgitem">
+											<a href="#">
+												<img class="imgitem" src="images/img_ec_joshibu_cot.jpg">
+											</a>
+										</div>
+									</div>
+								</li>
+						</li>	
+					</ul>
+				</div>
+			</div>
+			<div class="col-7" data-aos="fade-down">
+				<div class="slideshow-container">
+					<div class="mySlides">
+					  <img src="images/65c16665f39cbb90161dcf140c6cfce7.png" style="width:100%;height: 100%">
+					</div>
+
+					<div class="mySlides">
+					  <img src="images/photo-1-15844546390001534338643-crop-1584525766477682426488.jpg" style="width:100%;height: 100%">	 
+					</div>
+				</div>
+				<br>
+
+				<div style="text-align:center">
+				  <span class="dot"></span> 
+				  <span class="dot"></span> 
+				</div>
+				
+			</div>
+			<div class="col-3" data-aos="fade-right">
+				<div class="box1r bg-white p-1">
+					<img src="images/img_sld-03_e-min.jpg">
+					<a href="#">[20/5 - 30/5/2020] Đọc truyện miễn phí trên website</a>
+				</div>
+				
+				<div class="box1r bg-white p-1">
+					<img src="images/EVENT-5.jpg">
+					<a href="#">[19/5/2020] Công bố kết quả trúng thưởng!</a>
+				</div>
+			</div>
+		</div>
+		</section>
+	
+			<section id="about" class="my-1">
+			<div class="col-12 p-0">
+			<h5 class="titleAb" data-aos="fade-right">Thông tin về website</h5>
+			<div class="flexAb">		
+					<!-- 1 -->
+				<div class="boxAbout" data-aos="fade-right">
+					<div class="imgbx">
+						<img src="images/wp4317869.jpg">
+					</div>
+					<div class="contentAb">
+						<h3>Đảm bảo uy tín</h3>
+						<p>Shop Hoài Anh đảm bảo chất lượng hàng hoá, nguồn gốc xuất xứ và tuân theo quy định pháp luật. Chịu trách nhiệm bảo hành, đổi mới sản phẩm cho khách hàng khi có lỗi xảy ra. Tuân thủ theo chính sách xử lý hậu mãi mà Shop Hoai Anh quy định..Nhằm đem lại sự tín nhiệm của khách hàng.</p>
+					</div>
+				</div>
+				<!-- 2 -->
+				<div class="boxAbout" data-aos="fade-up">
+					<div class="imgbx">
+						<img src="images/kokushibo-54504.jpg">
+					</div>
+					<div class="contentAb">
+						<h3>Giao hàng miễn phí</h3>
+						<p>Khi mua hàng online, một trong những ưu tiên hàng đầu của khách hàng là phí vận chuyển, và Shop Hoài Anh là một trong những kênh mua sắm trực tuyến có chính sách miễn phí vận chuyển Shop Hoài Anh cho khách hàng. Những chính sách ưu đãi vận chuyển của Shop Hoài Anh khi khách hàng mua sản phẩm từ cùng một người bán từ một giá trị có hạn mức cụ thể nào đó trở lên thì sẽ được miễn phí vận chuyển trên toàn quốc. Chính sách này nằm trong mục tiêu đưa Shop Hoài Anh trở thành một trong những sàn thương mại điện tử tốt nhất tại Việt Nam.</p>
+					</div>
+				</div>
+				<!-- 3 -->
+				<div class="boxAbout" data-aos="fade-left">
+					<div class="imgbx">
+						<img src="images/kimetsu-no-yaiba-characters-tanjirou-kamado-nezuko-kamado-8K-18.jpg">
+					</div>
+					<div class="contentAb">
+						<h3>Chính sách bán hàng</h3>
+						<p>Đảm bảo chất lượng hàng hoá, nguồn gốc xuất xứ và tuân theo quy định pháp luật.Cung cấp hoá đơn cho khách hàng khi có yêu cầu trong vòng 7 ngày kể từ khi giao hàng thành công.Chịu trách nhiệm bảo hành, đổi mới sản phẩm cho khách hàng khi có lỗi xảy ra. Tuân thủ theo chính sách xử lý hậu mãi mà Shop Hoài Anh quy định.Giá bán trên Shop Hoài Anh là giá cuối cùng đã bao gồm nhưng không giới hạn các loại thuế.Chịu trách nhiệm đăng kí các chương trình khuyến mãi với Bộ Công Thương.Bảo mật thông tin cá nhân của Khách hàng</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		</section>
+		<section id="sanpham"class="my-1">
+		<div class="col-12 p-0 bg-white">
+			<h5 class="titleSp" data-aos="fade-right">Sản phẩm <span style="padding: 3px 6px;background: #f53b57;color: #fff;border-radius: 3px;">mới</span></h5>
+			<div class="boxSps" data-aos="fade-down">
+				<div class="boxsp">
+					<div class="imgbxSp">
+						<img src="images/sanpham/1.jpg">
+					</div>
+					<div class="contentSp">				
+						<div class="info">
+							<h3>Kimetsu yaiba tập 1</h3>
+							<h5>Tàn khốc</h5>
+							<p class="star">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+							</p>
+							<p>Giá: <span>25000</span>đ</p>
+							<p>Tóm tắt: Ở Nhật Bản thời Taisho, Kamado Tanjiro là một cậu bé tốt bụng, kiếm sống bằng nghề bán than củi.Nhưng cuộc sống bình yên của anh tan vỡ khi một con quỷ tàn sát cả gia đình anh</p>
+							<a href="#" class="addcart">Mua truyện</a>
+						</div>
+					</div>
+				</div>
+				<div class="boxsp">
+					<div class="imgbxSp">
+						<img src="images/sanpham/2.jpg">
+					</div>
+					<div class="contentSp">					
+						<div class="info">
+							<h3>Kimetsu yaiba tập 3</h3>
+							<h5>Tin vào bản thân</h5>
+							<p class="star">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+							</p>
+							<p>Giá: <span>25000</span>đ</p>
+							<p>Tóm tắt: Ở Nhật Bản thời Taisho, Kamado Tanjiro là một cậu bé tốt bụng, kiếm sống bằng nghề bán than củi.Nhưng cuộc sống bình yên của anh tan vỡ khi một con quỷ tàn sát cả gia đình anh</p>
+							<a href="#" class="addcart">Mua truyện</a>
+						</div>
+					</div>
+				</div>
+				<div class="boxsp">
+					<div class="imgbxSp">
+						<img src="images/sanpham/81hp4jq+6wL.jpg">
+					</div>
+					<div class="contentSp">
+						<div class="info">
+							<h3>Kimetsu yaiba tập 6</h3>
+							<h5>Tập hợp quân đoàn diệt quỷ</h5>
+							<p class="star">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+							</p>
+							<p>Giá: <span>25000</span>đ</p>
+							<p>Tóm tắt: Ở Nhật Bản thời Taisho, Kamado Tanjiro là một cậu bé tốt bụng, kiếm sống bằng nghề bán than củi.Nhưng cuộc sống bình yên của anh tan vỡ khi một con quỷ tàn sát cả gia đình anh</p>
+							<a href="#" class="addcart">Mua truyện</a>
+						</div>
+					</div>
+				</div>
+				<div class="boxsp">
+					<div class="imgbxSp">
+						<img src="images/sanpham/3.jpg">
+					</div>
+					<div class="contentSp">					
+						<div class="info">
+							<h3>Kimetsu yaiba tập 8</h3>
+							<h5>Sức mạnh của Hashira</h5>
+							<p class="star">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+							</p>
+							<p>Giá: <span>25000</span>đ</p>
+							<p>Tóm tắt: Ở Nhật Bản thời Taisho, Kamado Tanjiro là một cậu bé tốt bụng, kiếm sống bằng nghề bán than củi.Nhưng cuộc sống bình yên của anh tan vỡ khi một con quỷ tàn sát cả gia đình anh</p>
+							<a href="#" class="addcart">Mua truyện</a>
+						</div>
+					</div>
+				</div>
+				<div class="boxsp">
+					<div class="imgbxSp">
+						<img src="images/sanpham/51JiW0p2fvL._SY346_.jpg">
+					</div>
+					<div class="contentSp">					
+						<div class="info">
+							<h3>Kimetsu yaiba tập 9</h3>
+							<h5>Hoạt động: Khu giải trí</h5>
+							<p class="star">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+							</p>
+							<p>Giá: <span>25000</span>đ</p>
+							<p>Tóm tắt: Ở Nhật Bản thời Taisho, Kamado Tanjiro là một cậu bé tốt bụng, kiếm sống bằng nghề bán than củi.Nhưng cuộc sống bình yên của anh tan vỡ khi một con quỷ tàn sát cả gia đình anh</p>
+							<a href="#" class="addcart">Mua truyện</a>
+						</div>
+					</div>
+				</div>
+				<div class="boxsp">
+					<div class="imgbxSp">
+						<img src="images/sanpham/5133KmRIKEL._SY346_.jpg">
+					</div>
+					<div class="contentSp">					
+						<div class="info">
+							<h3>Kimetsu yaiba tập 11</h3>
+							<h5>Một cuộc chiến gần gũi</h5>
+							<p class="star">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+							</p>
+							<p>Giá: <span>25000</span>đ</p>
+							<p>Tóm tắt: Ở Nhật Bản thời Taisho, Kamado Tanjiro là một cậu bé tốt bụng, kiếm sống bằng nghề bán than củi.Nhưng cuộc sống bình yên của anh tan vỡ khi một con quỷ tàn sát cả gia đình anh</p>
+							<a href="#" class="addcart">Mua truyện</a>
+						</div>
+					</div>
+				</div>
+				<div class="boxsp">
+					<div class="imgbxSp">
+						<img src="images/sanpham/Kimetsu_no_Yaiba_V14_EN.png">
+					</div>
+					<div class="contentSp">					
+						<div class="info">
+							<h3>Kimetsu yaiba tập 14</h3>
+							<h5>Trận chiến ở Muichiro</h5>
+							<p class="star">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+							</p>
+							<p>Giá: <span>25000</span>đ</p>
+							<p>Tóm tắt: Ở Nhật Bản thời Taisho, Kamado Tanjiro là một cậu bé tốt bụng, kiếm sống bằng nghề bán than củi.Nhưng cuộc sống bình yên của anh tan vỡ khi một con quỷ tàn sát cả gia đình anh</p>
+							<a href="#" class="addcart">Mua truyện</a>
+						</div>
+					</div>
+				</div>
+				<div class="boxsp">
+					<div class="imgbxSp">
+						<img src="images/sanpham/Kimetsu_no_Yaiba_V15.png">
+					</div>
+					<div class="contentSp">			
+						<div class="info">
+							<h3>Kimetsu yaiba tập 15</h3>
+							<h5>Mặt trời lên và ánh sáng chiếu rọi</h5>
+							<p class="star">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+							</p>
+							<p>Giá: <span>25000</span>đ</p>
+							<p>Tóm tắt: Ở Nhật Bản thời Taisho, Kamado Tanjiro là một cậu bé tốt bụng, kiếm sống bằng nghề bán than củi.Nhưng cuộc sống bình yên của anh tan vỡ khi một con quỷ tàn sát cả gia đình anh</p>
+							<a href="#" class="addcart">Mua truyện</a>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	<section id="collection" class="my-1">
+		<div class="col-12 p-0 bg-white">
+			<h5 class="titleCol" data-aos="fade-right">Bộ sưu tập</h5>
+			 <img data-aos="fade-down" id="mainImg" src="images/collection/a2d5bb822a15f02fa22e7ffa996072a1.jpg" alt="">
+        <br>
+        <div id="gallery" data-aos="fade-up">
+            <img src="images/collection/6-anime-tuong-tu-kimetsu-no-yaiba.jpg" alt="">
+            <img src="images/collection/682c6590-f0f3-11e9-918d-050901070303-compressed.jpg" alt="">
+            <img src="images/collection/a2d5bb822a15f02fa22e7ffa996072a1.jpg" alt="">
+            <img src="images/collection/filters_quality(40)_background_color(white)_format(jpeg).jpg" alt="">
+            <img src="images/collection/kimetsu-no-yaiba-pillars-hashira-uhdpaper.com-4K-5.103-wp.thumbnail-e1579454443637.jpg" alt="">
+        </div>
+		</div>
+	</section>
+	<section id="contact" class="my-1">
+		<div class="col-12 p-0 bg-white">
+			<h5 class="titleCot" data-aos="fade-right">Đặt hàng</h5>
+			<div class="row p-0 m-0">
+				<div class="col-4" data-aos="fade-right">
+					<form method="get" id="demoForm" action="">
+	          <input type="text" name="name" id="name" placeholder="Họ và tên">
+	          <input type="text" name="sdt" id="sdt" placeholder="Số điện thoại">
+	          <input type="text" name="diachi" id="diachi" placeholder="Địa chỉ">
+	          <textarea name="noidung" id="noidung" cols="30" rows="10" placeholder="Nội dung"></textarea>
+	          <input type="submit" value="Đặt hàng">
+	      	</form>
+      	</div>
+      	<div class="col-8" data-aos="fade-left">
+      		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3918.828579731613!2d106.637282!3d10.824427!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752964db25ff5b%3A0xe87f2e89db53507a!2zSOG6u20gTmd1eeG7hW4gUGjDumMgQ2h1LCBQaMaw4budbmcgMTUsIFTDom4gQsOsbmgsIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2sus!4v1586367898386!5m2!1svi!2sus" width="100%" height="90%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      	</div>
+			</div>
+		</div>
+	</section>
+<!-- end boxcenter -->
+</div>
+<!-- footer -->
+<footer class="bg-dark">
+	<div class="boxcenter">
+		<div class="row p-0 m-0">
+			<div class="col-6 text-white p-2">
+				<h1>Shop hoài Anh</h1>
+				<h5>Bán truyện tranh kimetsu no yaiba</h5>
+				<p>Liên hệ: 1234545</p>
+				<p>Email:hoaianh@gmail.com</p>
+				<p>Địa chỉ: 12/34 Linh Nam, Tây Ninh</p>
+			</div>
+			<div class="col-6 text-white p-2">
+				<h1>Design by hoài Anh</h1>
+				<p>Mssv: PS09887</p>
+				<h5>Asignment</h5>
+				<p>Lập trình javascript nâng cao</p>
+			</div>
+		</div>
+	</div>
+</footer>
+<a href="#" class="scrolltop link"><i class="fas fa-arrow-up" aria-hidden="true"></i></a>
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="text/javascript">
+    AOS.init();
+</script>
+<script type="text/javascript" src="js/jquery-3.5.0.js"></script>
+
+<script type="text/javascript" src="js/slideshow.js"></script>
+<script type="text/javascript" src="js/collection.js"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+
+</body>
+</html>
